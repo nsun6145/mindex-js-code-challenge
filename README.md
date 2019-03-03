@@ -1,0 +1,1 @@
+# mindex-js-code-challenge
