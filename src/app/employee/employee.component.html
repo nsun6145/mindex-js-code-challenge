@@ -11,12 +11,14 @@
     </dl>
     <p>Reports: </p>
     <dl *ngFor= "let employee of reportingEmployees">
+     <div id="reporting">
       <dt>Name: {{employee.firstName}} {{employee.lastName}}, {{employee.position}} </dt>
-      <dd>Salary: {{employee.compensation}}</dd>
+      <dd>Salary: ${{employee.compensation}}</dd>
           <mat-card-actions>
-      <button mat-raised-button>Edit</button>
-      <button mat-raised-button>Delete</button>
+      <button mat-raised-button onclick="sendEdit()">Edit</button>
+      <button mat-raised-button onclick="sendDelete()">Delete</button>
     </mat-card-actions>
+    </div>
     </dl>
   </mat-card-content>
 </mat-card>

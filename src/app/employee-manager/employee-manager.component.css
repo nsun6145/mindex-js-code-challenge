@@ -1,0 +1,23 @@
+mat-card{
+  width: 250px;
+  height: 400px;
+}
+
+.optionButton{
+  position:absolute;
+  bottom: 15px;
+  
+}
+
+#confirmButton{
+  left: 175px;
+}
+
+#cancelButton{
+  right: 175px;
+}
+
+mat-form-field{
+right: 50px;
+top: 30px;
+}

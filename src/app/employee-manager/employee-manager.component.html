@@ -1,3 +1,18 @@
-<p>
-  employee-manager works!
-</p>
+<mat-card class="dialog">
+  <mat-card-header>
+  <mat-card-title>Edit Employee</mat-card-title>
+  <mat-card-content>
+    <p>{{employeeName}}</p>
+    <mat-form-field>
+      <input  matInput  placeholder="First Name" [(ngModel)]="firstName"  name=""  required>
+    </mat-form-field>
+    <mat-form-field> <input  matInput  placeholder="Last Name" [(ngModel)]="lastName"  name=""  required></mat-form-field>
+    <mat-form-field><input  matInput  placeholder="Position" [(ngModel)]="position"  name=""  required></mat-form-field>
+    <mat-form-field><input  matInput  placeholder="Compensation" [(ngModel)]="compensation"  name=""  required></mat-form-field>
+    <mat-card-actions>
+          <button mat-raised-button id="confirmButton" class="optionButton" onclick="confirmDelete()">Confirm</button>
+      <button mat-raised-button id="cancelButton" class="optionButton" onclick="cancel()">Cancel</button>
+    </mat-card-actions>
+  </mat-card-content>
+</mat-card-header>
+</mat-card>

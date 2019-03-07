@@ -29,4 +29,13 @@ export class EmployeeListComponent implements OnInit {
     console.error(e);
     return this.errorMessage = e.message || 'Unable to retrieve employees';
   }
+  
+  edit(): void{
+  
+  }
+  
+  delete(): void{
+  
+  }
+  
 }

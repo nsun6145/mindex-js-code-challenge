@@ -1,0 +1,13 @@
+<mat-card class="dialog">
+  <mat-card-header>
+  <mat-card-title>Warning!</mat-card-title>
+  <mat-card-subtitle>Delete this employee? This action cannot be undone.</mat-card-subtitle>
+  <mat-card-content>
+    <p>{{employeeName}}</p>
+    <mat-card-actions>
+          <button mat-raised-button id="confirmButton" class="optionButton" onclick="confirmDelete()">Delete</button>
+      <button mat-raised-button id="cancelButton" class="optionButton" onclick="cancel()">Cancel</button>
+    </mat-card-actions>
+  </mat-card-content>
+</mat-card-header>
+</mat-card>

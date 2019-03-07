@@ -1,3 +1,27 @@
+@keyframes fade-in {
+  0%   {opacity: 0.0;}
+  100% {opacity: 1.0;}
+}
+
+mat-card{
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
 .employee{
-  background-color: #42e8f4;
+  background-color: #ff503d;
+}
+
+#reporting{
+  border-style: solid;
+  background-color: black;
+  border-color:  white;
+  color: white;
+
+}
+#reporting button{
+  margin-left: 20px;
+}
+mat-card{
+  width: 300px;
 }

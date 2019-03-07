@@ -12,13 +12,15 @@ import {EmployeeComponent} from './employee/employee.component';
 import {EmployeeListComponent} from './employee-list/employee-list.component';
 import {EmployeeService} from './employee.service';
 import { EmployeeManagerComponent } from './employee-manager/employee-manager.component';
+import { EmployeeDeleteComponent } from './employee-delete/employee-delete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeComponent,
     EmployeeListComponent,
-    EmployeeManagerComponent
+    EmployeeManagerComponent,
+    EmployeeDeleteComponent
   ],
   imports: [
     BrowserModule,
